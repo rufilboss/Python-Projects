@@ -1,9 +1,8 @@
-# Using Goslate Library
-from fnmatch import translate
+# Tranlating word to another language using Goslate Library
 import goslate
 
-insert_text = "My name is Ilyas"
+insert_word = input('Enter what you want to translate:....')
 
-new_gs = goslate.Goslate()
-print(new_gs.translate(insert_text, 'fr'))
+trans_df = goslate.Goslate()
+trans_df.translate(insert_word, 'fr')
 
