@@ -2,6 +2,7 @@ from itertools import count
 from unicodedata import name
 
 
+#Code in OOP
 class Employee:
     count = 0
     def __init__(self, name, position, salary):
@@ -14,7 +15,7 @@ class Employee:
     def displayDetails(self):
             print("Name:", self.name, ", Position:", self.position, ", Salary:", self.salary)
 
-#
+#Input
 emp = Employee("Ilyas Rufai", "DevOps Engineer", 10000000)
 emp1 = Employee("Ayo", "HR", 300000)
 emp2 = Employee("Aisruffy", "manager", 900000)
@@ -24,7 +25,7 @@ emp4 = Employee("AbdulRahmon", "Engineer", 45000)
 #Count of employees
 emp4.displayCount()
 
-#
+#Print Details about the Employees
 print("**Information about the Employee**")
 emp.displayDetails()
 emp1.displayDetails()
