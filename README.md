@@ -1,2 +1,4 @@
-# Python-Projects
-This is a repo for my python projects.
+# Python Projects
+
+
+This is a repository for my python projects.
