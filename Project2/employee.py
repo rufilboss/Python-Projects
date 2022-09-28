@@ -22,7 +22,7 @@ emp2 = Employee("Aisruffy", "manager", 900000)
 emp3 = Employee("Alex", "programmer", 500000)
 emp4 = Employee("AbdulRahmon", "Engineer", 45000)
 
-#Count of employees
+#Numbers of employees
 emp4.displayCount()
 
 #Print Details about the Employees
