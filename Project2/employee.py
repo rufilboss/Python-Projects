@@ -15,7 +15,7 @@ class Employee:
     def displayDetails(self):
             print("Name:", self.name, ", Position:", self.position, ", Salary:", self.salary)
 
-#Input
+#Input for the company enployees
 emp = Employee("Ilyas Rufai", "DevOps Engineer", 10000000)
 emp1 = Employee("Ayo", "HR", 300000)
 emp2 = Employee("Aisruffy", "manager", 900000)
