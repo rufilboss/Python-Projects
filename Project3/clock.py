@@ -5,7 +5,7 @@ from tkinter import Label, Tk, mainloop
 
 #Designing the GUI for the digital clock
 window = Tk()
-window.title("")
+window.title("Digital Clock")
 window.geometry("200 * 80")
 window.configure(bg = "black")
 window.resizable(False, False)
