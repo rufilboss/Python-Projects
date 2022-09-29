@@ -62,3 +62,5 @@ def welcome():
     else:
         print('This is wrong input')
         welcome()
+
+welcome()
