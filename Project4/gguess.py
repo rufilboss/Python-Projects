@@ -23,3 +23,8 @@ def guessingGame(guessLimit, number):
 
     except ValueError:
         print("Only number is allowed")
+
+def easy():
+    print('You are to guess a number from 1 to 10, and you 6 guesses')
+    guessingGame(6, 10)
+
