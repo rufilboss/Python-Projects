@@ -36,4 +36,15 @@ def hard():
     print('You are to guess a number from 1 to 50, and you have 3 guesses')
     guessingGame(3, 50)
 
+
+def tryAgain():
+    again = input('Do you want to play again? YES/NO')
+    if again.upper == 'YES':
+        welcome()
+    elif again.upper == 'NO':
+        print('Thanks for playing')
+    else:
+        print('Wrong input!')
+        tryAgain()
+
     
