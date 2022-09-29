@@ -29,6 +29,11 @@ def easy():
     guessingGame(6, 10)
 
 def medium():
-    print('You are to guess a number from 1 to 20, and you 4 guesses')
+    print('You are to guess a number from 1 to 20, and you have 4 guesses')
     guessingGame(4, 20)
 
+def hard():
+    print('You are to guess a number from 1 to 50, and you have 3 guesses')
+    guessingGame(3, 50)
+
+    
