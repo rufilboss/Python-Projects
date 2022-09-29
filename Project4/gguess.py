@@ -49,7 +49,8 @@ def tryAgain():
 
 def welcome():
     print('Welcome to the guessing game:')
-    difficulty = input('Choose your level; Easy, Medium or Hard.')
+    difficulty = input('Choose your level; Easy, Medium or Hard: ')
+
     if difficulty.upper == 'EASY':
         easy()
         tryAgain()
