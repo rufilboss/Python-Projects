@@ -6,6 +6,8 @@ class Camera:
         self.camera = cv.VideoCapture(0)
         if not self.camera.isOpened():
             raise ValueError("Unable to open the camera")
+        self.width = self.camera.get(cv.CAP_PROP_FRAME_WIDTH)
+        self.height = self.camera.get(cv.CAP_PROP_FRAME_HEIGHT)
         
     def __del__(self):
         if self.camera.isOpened():
@@ -17,6 +19,7 @@ class Camera:
             if ret:
                 return (ret, cv.ctrColor(frame, cv.COLOR_BGR2RGB))
             else:
-                raise ValueError("Unable to capture frame from the camera")
+                return (ret, None)
+                # raise ValueError("Unable to capture frame from the camera")
         else:
             return None
