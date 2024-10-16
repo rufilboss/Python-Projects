@@ -6,7 +6,7 @@ import PIL.Image, PIL.ImageTk
 import camera
 
 class App:
-    def __init__(self, window=tk.TK(), window_title="Camera Classifier"):
+    def __init__(self, window=tk.Tk(), window_title="Camera Classifier"):
         self.window = window
         self.window_title = window_title
         
